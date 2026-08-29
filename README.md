@@ -87,11 +87,9 @@ function Tv() {
 ```
 Exemple :
 ```javascript
-var maTv = Tv()
-maTv.channelNumber //=> 0 (elle commence sur la chaîne 0 au début)
- maTv.watch() //=> "vous regardez maintenant la chaîne #0"
+let maTv = Tv()
+maTv.watch() //=> "vous regardez maintenant la chaîne #0"
 maTv.changeChannel(5) //=> "changement vers la chaîne #5"
-maTv.channelNumber //=> 5
 maTv.watch() //=> "vous regardez maintenant la chaîne #5"
 ```
 
